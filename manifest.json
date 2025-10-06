@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Career Board Extension",
+  "version": "1.0.0",
+  "description": "An extension to clip and organize job posts into a personal Kanban board.",
+  "action": {
+    "default_popup": "src/popup/index.html",
+    "default_title": "Career Board"
+  },
+  "background": {
+    "service_worker": "src/background.js",
+    "type": "module"
+  },
+  "permissions": ["storage"]
+}
