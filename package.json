@@ -1,0 +1,22 @@
+{
+  "name": "career-board-extension",
+  "version": "1.0.0",
+  "description": "An extension to clip and organize job posts into a personal Kanban board.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "rimraf dist && vite build",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.7",
+    "vite-plugin-web-extension": "^4.4.5"
+  }
+}
